@@ -33,13 +33,13 @@ C++ 언어 학습을 위한 학습자료입니다.
 
 ### 과제
  [1] BasicCpp <br>
-1.for문 연습.cpp <br>
+1. for문 연습.cpp <br>
 &nbsp;&nbsp;&nbsp;[11화 for 문 별찍기](https://www.youtube.com/watch?v=7ZaxEB3A2kg&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=11)<br>
-2.baseball.cpp<br>
+2. baseball.cpp<br>
 &nbsp;&nbsp;&nbsp;[14화 야구게임](https://www.youtube.com/watch?v=cZVwzDcE8zY&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=14)<br>
-3.puzzle.cpp<br>
+3. puzzle.cpp<br>
 &nbsp;&nbsp;&nbsp;[15화 숫자퍼즐게임](https://www.youtube.com/watch?v=umpMT1xql0I&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=15)<br>
-4.bingo.cpp<br>
+4. bingo.cpp<br>
 &nbsp;&nbsp;&nbsp;[16화 빙고게임1](https://www.youtube.com/watch?v=fG3asvf83us&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=16)<br>
 &nbsp;&nbsp;&nbsp;[17화 빙고게임2](https://www.youtube.com/watch?v=epr8XllRCkc&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=17)<br>
 &nbsp;&nbsp;&nbsp;[18화 AI EASY MODE](https://www.youtube.com/watch?v=z4z-YRqLOu0&list=PL4SIC1d_ab-b4zy_3FDRIiohszShOZ0PK&index=18)<br>
