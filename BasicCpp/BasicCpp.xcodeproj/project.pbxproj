@@ -6,17 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		834FB71A25791EB700AF6701 /* 2.bitOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FB7112579177500AF6701 /* 2.bitOperator.cpp */; };
-		834FB73C25791FE300AF6701 /* 1.Tutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FB708257903C100AF6701 /* 1.Tutorial.cpp */; };
-		835E5896257F78430026A7D3 /* 6.puzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835E5869257F782E0026A7D3 /* 6.puzzle.cpp */; };
-		835E58C62580F5690026A7D3 /* 7.bingo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835E58A52580F48D0026A7D3 /* 7.bingo.cpp */; };
-		838DBE00257F6D8F003436B5 /* 5.baseball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838DBDE4257F6D77003436B5 /* 5.baseball.cpp */; };
-		83C04620257E5FC80027E62E /* 4.do_while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C045FD257E5F3F0027E62E /* 4.do_while.cpp */; };
-		83D6DF98257E152A003ACFF3 /* 3.switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D6DF83257E14C1003ACFF3 /* 3.switch.cpp */; };
-		83D6DFB8257E315E003ACFF3 /* 1.for문 연습.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D6DF9F257E30BC003ACFF3 /* 1.for문 연습.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		834FB748257920E500AF6701 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -104,20 +93,14 @@
 
 /* Begin PBXFileReference section */
 		834FB705257903C100AF6701 /* Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tutorial; sourceTree = BUILT_PRODUCTS_DIR; };
-		834FB708257903C100AF6701 /* 1.Tutorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1.Tutorial.cpp; sourceTree = "<group>"; };
-		834FB7112579177500AF6701 /* 2.bitOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 2.bitOperator.cpp; path = BasicCpp/2.bitOperator.cpp; sourceTree = "<group>"; };
 		834FB72125791EB700AF6701 /* bitOperator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bitOperator; sourceTree = BUILT_PRODUCTS_DIR; };
-		835E5869257F782E0026A7D3 /* 6.puzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 6.puzzle.cpp; path = BasicCpp/6.puzzle.cpp; sourceTree = "<group>"; };
 		835E587F257F78370026A7D3 /* puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puzzle; sourceTree = BUILT_PRODUCTS_DIR; };
-		835E58A52580F48D0026A7D3 /* 7.bingo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7.bingo.cpp; sourceTree = "<group>"; };
 		835E58B52580F5610026A7D3 /* bingo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bingo; sourceTree = BUILT_PRODUCTS_DIR; };
-		838DBDE4257F6D77003436B5 /* 5.baseball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 5.baseball.cpp; path = BasicCpp/5.baseball.cpp; sourceTree = "<group>"; };
+		835E58CF2584A7AB0026A7D3 /* 과제 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "과제"; sourceTree = "<group>"; };
+		835E58D02584A7AB0026A7D3 /* 수업 자료 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "수업 자료"; sourceTree = "<group>"; };
 		838DBDF3257F6D86003436B5 /* baseball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baseball; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C045FD257E5F3F0027E62E /* 4.do_while.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 4.do_while.cpp; path = BasicCpp/4.do_while.cpp; sourceTree = "<group>"; };
 		83C04610257E5FB70027E62E /* dowhile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dowhile; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D6DF83257E14C1003ACFF3 /* 3.switch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 3.switch.cpp; path = BasicCpp/3.switch.cpp; sourceTree = "<group>"; };
 		83D6DF91257E1514003ACFF3 /* Switch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Switch; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D6DF9F257E30BC003ACFF3 /* 1.for문 연습.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "1.for문 연습.cpp"; path = "BasicCpp/1.for문 연습.cpp"; sourceTree = "<group>"; };
 		83D6DFAF257E3153003ACFF3 /* for */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = for; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,13 +167,6 @@
 		834FB6FC257903C100AF6701 = {
 			isa = PBXGroup;
 			children = (
-				835E58A52580F48D0026A7D3 /* 7.bingo.cpp */,
-				838DBDE4257F6D77003436B5 /* 5.baseball.cpp */,
-				835E5869257F782E0026A7D3 /* 6.puzzle.cpp */,
-				834FB7112579177500AF6701 /* 2.bitOperator.cpp */,
-				83D6DF83257E14C1003ACFF3 /* 3.switch.cpp */,
-				83D6DF9F257E30BC003ACFF3 /* 1.for문 연습.cpp */,
-				83C045FD257E5F3F0027E62E /* 4.do_while.cpp */,
 				834FB707257903C100AF6701 /* BasicCpp */,
 				834FB706257903C100AF6701 /* Products */,
 			);
@@ -214,7 +190,8 @@
 		834FB707257903C100AF6701 /* BasicCpp */ = {
 			isa = PBXGroup;
 			children = (
-				834FB708257903C100AF6701 /* 1.Tutorial.cpp */,
+				835E58CF2584A7AB0026A7D3 /* 과제 */,
+				835E58D02584A7AB0026A7D3 /* 수업 자료 */,
 			);
 			path = BasicCpp;
 			sourceTree = "<group>";
@@ -402,7 +379,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834FB73C25791FE300AF6701 /* 1.Tutorial.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834FB71A25791EB700AF6701 /* 2.bitOperator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835E5896257F78430026A7D3 /* 6.puzzle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835E58C62580F5690026A7D3 /* 7.bingo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				838DBE00257F6D8F003436B5 /* 5.baseball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C04620257E5FC80027E62E /* 4.do_while.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +421,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D6DF98257E152A003ACFF3 /* 3.switch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D6DFB8257E315E003ACFF3 /* 1.for문 연습.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
