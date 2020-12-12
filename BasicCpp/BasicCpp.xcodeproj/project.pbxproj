@@ -10,6 +10,7 @@
 		834FB71A25791EB700AF6701 /* 2.bitOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FB7112579177500AF6701 /* 2.bitOperator.cpp */; };
 		834FB73C25791FE300AF6701 /* 1.Tutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 834FB708257903C100AF6701 /* 1.Tutorial.cpp */; };
 		835E5896257F78430026A7D3 /* 6.puzzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835E5869257F782E0026A7D3 /* 6.puzzle.cpp */; };
+		835E58C62580F5690026A7D3 /* 7.bingo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835E58A52580F48D0026A7D3 /* 7.bingo.cpp */; };
 		838DBE00257F6D8F003436B5 /* 5.baseball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 838DBDE4257F6D77003436B5 /* 5.baseball.cpp */; };
 		83C04620257E5FC80027E62E /* 4.do_while.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C045FD257E5F3F0027E62E /* 4.do_while.cpp */; };
 		83D6DF98257E152A003ACFF3 /* 3.switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83D6DF83257E14C1003ACFF3 /* 3.switch.cpp */; };
@@ -46,6 +47,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		835E587B257F78370026A7D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		835E58B12580F5610026A7D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -99,6 +109,8 @@
 		834FB72125791EB700AF6701 /* bitOperator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bitOperator; sourceTree = BUILT_PRODUCTS_DIR; };
 		835E5869257F782E0026A7D3 /* 6.puzzle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 6.puzzle.cpp; path = BasicCpp/6.puzzle.cpp; sourceTree = "<group>"; };
 		835E587F257F78370026A7D3 /* puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = puzzle; sourceTree = BUILT_PRODUCTS_DIR; };
+		835E58A52580F48D0026A7D3 /* 7.bingo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7.bingo.cpp; sourceTree = "<group>"; };
+		835E58B52580F5610026A7D3 /* bingo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bingo; sourceTree = BUILT_PRODUCTS_DIR; };
 		838DBDE4257F6D77003436B5 /* 5.baseball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 5.baseball.cpp; path = BasicCpp/5.baseball.cpp; sourceTree = "<group>"; };
 		838DBDF3257F6D86003436B5 /* baseball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = baseball; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C045FD257E5F3F0027E62E /* 4.do_while.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = 4.do_while.cpp; path = BasicCpp/4.do_while.cpp; sourceTree = "<group>"; };
@@ -125,6 +137,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		835E587A257F78370026A7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835E58B02580F5610026A7D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,6 +184,7 @@
 		834FB6FC257903C100AF6701 = {
 			isa = PBXGroup;
 			children = (
+				835E58A52580F48D0026A7D3 /* 7.bingo.cpp */,
 				838DBDE4257F6D77003436B5 /* 5.baseball.cpp */,
 				835E5869257F782E0026A7D3 /* 6.puzzle.cpp */,
 				834FB7112579177500AF6701 /* 2.bitOperator.cpp */,
@@ -186,6 +206,7 @@
 				83C04610257E5FB70027E62E /* dowhile */,
 				838DBDF3257F6D86003436B5 /* baseball */,
 				835E587F257F78370026A7D3 /* puzzle */,
+				835E58B52580F5610026A7D3 /* bingo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,6 +272,23 @@
 			name = puzzle;
 			productName = BasicCpp;
 			productReference = 835E587F257F78370026A7D3 /* puzzle */;
+			productType = "com.apple.product-type.tool";
+		};
+		835E58AD2580F5610026A7D3 /* bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835E58B22580F5610026A7D3 /* Build configuration list for PBXNativeTarget "bingo" */;
+			buildPhases = (
+				835E58AE2580F5610026A7D3 /* Sources */,
+				835E58B02580F5610026A7D3 /* Frameworks */,
+				835E58B12580F5610026A7D3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bingo;
+			productName = BasicCpp;
+			productReference = 835E58B52580F5610026A7D3 /* bingo */;
 			productType = "com.apple.product-type.tool";
 		};
 		838DBDEB257F6D86003436B5 /* baseball */ = {
@@ -354,6 +392,7 @@
 				83C04607257E5FB70027E62E /* dowhile */,
 				838DBDEB257F6D86003436B5 /* baseball */,
 				835E5877257F78370026A7D3 /* puzzle */,
+				835E58AD2580F5610026A7D3 /* bingo */,
 			);
 		};
 /* End PBXProject section */
@@ -380,6 +419,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				835E5896257F78430026A7D3 /* 6.puzzle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835E58AE2580F5610026A7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835E58C62580F5690026A7D3 /* 7.bingo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +632,22 @@
 			};
 			name = Release;
 		};
+		835E58B32580F5610026A7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		835E58B42580F5610026A7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		838DBDF1257F6D86003436B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -684,6 +747,15 @@
 			buildConfigurations = (
 				835E587D257F78370026A7D3 /* Debug */,
 				835E587E257F78370026A7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835E58B22580F5610026A7D3 /* Build configuration list for PBXNativeTarget "bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835E58B32580F5610026A7D3 /* Debug */,
+				835E58B42580F5610026A7D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
