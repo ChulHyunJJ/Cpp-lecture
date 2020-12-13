@@ -55,6 +55,12 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+BasicCpp/.idea/
+BasicCpp/CMakeLists.txt
+BasicCpp/cmake-build-debug/
+Structure/cmake-build-debug/
+Structure/CMakeLists.txt
+
 
 ### CMake Patch ###
 # External projects

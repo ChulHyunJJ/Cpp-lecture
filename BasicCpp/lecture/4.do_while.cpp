@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <time.h>
+#include <curses.h>
 
 using namespace std;
 
@@ -67,7 +68,7 @@ int main()
         cout << endl;
     }
     
-    system("cls");
+    clear();
     
     srand((unsigned int)time(0));
     
@@ -103,7 +104,7 @@ int main()
     {
         cout<< iLotto[i] << endl;
     }
-    
+
     for (int i =0; i<6; ++i)
     {
         cout << iLotto[i] << "\t";
