@@ -1,0 +1,4 @@
+/Users/chris/Documents/git/Cpp/Structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chris/Documents/git/Cpp/Structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chris/Documents/git/Cpp/Structure/cmake-build-debug/CMakeFiles/Structure.dir
+/Users/chris/Documents/git/Cpp/Structure/cmake-build-debug/CMakeFiles/Structure_autogen.dir
