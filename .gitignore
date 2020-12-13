@@ -59,6 +59,7 @@ BasicCpp/.idea/
 BasicCpp/CMakeLists.txt
 BasicCpp/cmake-build-debug/
 Structure/cmake-build-debug/
+Structure/.idea/
 Structure/CMakeLists.txt
 
 
