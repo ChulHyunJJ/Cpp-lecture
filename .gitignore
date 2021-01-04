@@ -61,6 +61,15 @@ BasicCpp/cmake-build-debug/
 Structure/cmake-build-debug/
 Structure/.idea/
 Structure/CMakeLists.txt
+Pointer/CMakeLists.txt
+Pointer/.idea/
+Pointer/cmake-build-debug/
+Function/.idea/
+Function/cmake-build-debug/
+Function/CMakeLists.txt
+LinkedList/CMakeLists.txt
+LinkedList/cmake-build-debug/
+LinkedList/.idea/
 
 
 ### CMake Patch ###

@@ -16,6 +16,7 @@ add_executable(${PROJECT_NAME}
         #1.structure.cpp
         #2.manage_student.cpp
         3.textRPG.cpp)
+        #1.book_management_system.cpp
 
 list(APPEND CMAKE_PREFIX_PATH "Structure")
 
